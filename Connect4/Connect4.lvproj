@@ -10,7 +10,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="anothermodule.vi" Type="VI" URL="../anothermodule.vi"/>
+		<Item Name="checkColors.vi" Type="VI" URL="../checkColors.vi"/>
+		<Item Name="colorBool.vi" Type="VI" URL="../colorBool.vi"/>
 		<Item Name="Connect4.vi" Type="VI" URL="../Connect4.vi"/>
+		<Item Name="fixConnect4Array.vi" Type="VI" URL="../fixConnect4Array.vi"/>
+		<Item Name="placementHandler.vi" Type="VI" URL="../placementHandler.vi"/>
+		<Item Name="ResetColors.vi" Type="VI" URL="../ResetColors.vi"/>
+		<Item Name="somethingelseIcantremember.vi" Type="VI" URL="../somethingelseIcantremember.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -33,30 +40,18 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
-				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Determine Clicked Array Element Index - Calculate Gapped and Un-Gapped Coordinates.vi" Type="VI" URL="../../../Downloads/arrayclick/Distribution/Determine Clicked Array Element Index 2011/_Subs/Determine Clicked Array Element Index - Calculate Gapped and Un-Gapped Coordinates.vi"/>
-			<Item Name="Determine Clicked Array Element Index - Calculate Scrollbar Edges.vi" Type="VI" URL="../../../Downloads/arrayclick/Distribution/Determine Clicked Array Element Index 2011/_Subs/Determine Clicked Array Element Index - Calculate Scrollbar Edges.vi"/>
-			<Item Name="Determine Clicked Array Element Index - Cancel Error Code 1320.vi" Type="VI" URL="../../../Downloads/arrayclick/Distribution/Determine Clicked Array Element Index 2011/_Subs/Determine Clicked Array Element Index - Cancel Error Code 1320.vi"/>
-			<Item Name="Determine Clicked Array Element Index - Determine Array and Scrollbar Properties.vi" Type="VI" URL="../../../Downloads/arrayclick/Distribution/Determine Clicked Array Element Index 2011/_Subs/Determine Clicked Array Element Index - Determine Array and Scrollbar Properties.vi"/>
-			<Item Name="Determine Clicked Array Element Index - Determine Array Element Coordinates.vi" Type="VI" URL="../../../Downloads/arrayclick/Distribution/Determine Clicked Array Element Index 2011/_Subs/Determine Clicked Array Element Index - Determine Array Element Coordinates.vi"/>
-			<Item Name="Determine Clicked Array Element Index - Determine if Item Clicked.vi" Type="VI" URL="../../../Downloads/arrayclick/Distribution/Determine Clicked Array Element Index 2011/_Subs/Determine Clicked Array Element Index - Determine if Item Clicked.vi"/>
-			<Item Name="Determine Clicked Array Element Index - Determine Index Values (1D or 2D Array).vi" Type="VI" URL="../../../Downloads/arrayclick/Distribution/Determine Clicked Array Element Index 2011/_Subs/Determine Clicked Array Element Index - Determine Index Values (1D or 2D Array).vi"/>
-			<Item Name="Determine Clicked Array Element Index - Get Minimal Array Properties.vi" Type="VI" URL="../../../Downloads/arrayclick/Distribution/Determine Clicked Array Element Index 2011/_Subs/Determine Clicked Array Element Index - Get Minimal Array Properties.vi"/>
-			<Item Name="Determine Clicked Array Element Index - Test For Array Element Gap.vi" Type="VI" URL="../../../Downloads/arrayclick/Distribution/Determine Clicked Array Element Index 2011/_Subs/Determine Clicked Array Element Index - Test For Array Element Gap.vi"/>
-			<Item Name="Determine Clicked Array Element Index - Test For Error Code 1320.vi" Type="VI" URL="../../../Downloads/arrayclick/Distribution/Determine Clicked Array Element Index 2011/_Subs/Determine Clicked Array Element Index - Test For Error Code 1320.vi"/>
-			<Item Name="Determine Clicked Array Element Index.vi" Type="VI" URL="../../../Downloads/arrayclick/Distribution/Determine Clicked Array Element Index 2011/Determine Clicked Array Element Index.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
